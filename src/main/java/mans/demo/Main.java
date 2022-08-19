@@ -95,8 +95,6 @@ public class Main extends Application {
        //Pass Triangle to root Node
         root.getChildren().add(tri);
 
-
-
         //Add Image
         Image lakpaLLC = new Image("C:\\Users\\Emmanuel Seyon\\IdeaProjects\\demo\\src\\xoxo.png" );
         //Pass Image to Stage(Windows Label Pic)
@@ -111,7 +109,7 @@ public class Main extends Application {
         root.getChildren().add(imageView);
 
         //Set Stage Title(Window Label)
-        cntrStage1.setTitle("Stage Demo Skirt Skirt");
+        cntrStage1.setTitle("Stage Demo Skirt-Skirt");
 
         /*Set Size of Window (Overrides the scene Sizing Values)
         cntrStage1.setWidth(666);
@@ -138,11 +136,8 @@ public class Main extends Application {
         cntrStage1.show();
 
 
-//
 //        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("hello-view.fxml"));
 //        Scene scene = new Scene(fxmlLoader.load(), 320, 240);
-//
-//    }
 
     }
 }
