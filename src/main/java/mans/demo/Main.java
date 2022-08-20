@@ -33,6 +33,11 @@ public class Main extends Application {
     //Set Stage(Window) (First)
     public void start(Stage cntrStage1) throws IOException {
 
+        //Fxml Loading
+        //FXMLLoader fxmlLoader = new FXMLLoader(MainClass.class.getResource("hello-view.fxml"));
+        //Load Scene pass Fxml Loader through it
+        //Scene scene = new Scene(fxmlLoader.load(), 320, 240, Color.BEIGE);
+
         //Create Group type root node(Layout)
         Group root = new Group();
         // Create Scene-Pass a Root Node to the scene
